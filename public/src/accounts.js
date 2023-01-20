@@ -30,7 +30,7 @@ function getBooksPossessedByAccount(account={}, books=[], authors=[]) {
   const result = books.filter((bookObj)=>{
     const {borrows, authorId} = bookObj;
     const isBookBorrowedByAcct = bookObj.borrows.some((acct)=>{
-      return acct.id === id;
+      return acct.id === id && acct.returned === false;
     })
     if (isBookBorrowedByAcct === true) {
       const matchingAuthor = authors.find((authorToMatch)=>{
