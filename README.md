@@ -20,7 +20,7 @@ The Local Library project is built using the following technologies and tools:
 ## Run Locally
 To run this project locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/your-username/local-library.git`
+1. Clone the repository: `git clone https://github.com/macadamsch/local_library.git`
 2. Change directory to the project folder: `cd local-library`
 3. Install dependencies: `npm install` or `yarn install` if you're using Yarn.
 4. Run the tests: `npm test` or `yarn test`.
